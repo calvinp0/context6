@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context6"
+version = "0.2.0"
+description = "Local code context indexer + MCP server"
+requires-python = ">=3.10"
+dependencies = ["pytest", "fastmcp"]
+
+[project.scripts]
+context6 = "context6.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["context6*"]

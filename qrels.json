@@ -1,0 +1,21 @@
+[
+  {
+    "query": "ARC",
+    "relevant": [
+      {"fqname": "ARC", "kind": "module"},
+      {"fqname": "arc.main", "kind": "module"},
+      {"fqname": "arc.main.ARC", "kind": "class"},
+      {"fqname": "arc.main.ARC.execute", "kind": "method"}
+    ]
+  },
+  {
+    "query": "Scheduler",
+    "relevant": [
+      {"fqname": "arc.scheduler", "kind": "module"},
+      {"fqname": "arc.scheduler.Scheduler", "kind": "class"},
+      {"fqname": "arc.scheduler.Scheduler.schedule_jobs", "kind": "method"},
+      {"fqname": "arc.main.ARC.execute", "kind": "method"}
+    ]
+  }
+]
+
